@@ -1,0 +1,10 @@
+
+numpy
+pandas
+matplotlib
+scipy
+rasterio
+geopandas
+shapely
+scikit-learn
+torch
