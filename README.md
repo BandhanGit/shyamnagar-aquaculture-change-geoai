@@ -1,4 +1,4 @@
-# Aquaculture Expansion in Shyamnagar, Bangladesh
+# Spatiotemporal GeoAI for Mapping Aquaculture Expansion in Coastal Bangladesh: A Case Study of Shyamnagar
 
 I used Landsat imagery and machine learning to map aquaculture expansion in Shyamnagar Upazila, Bangladesh.
 
@@ -33,6 +33,26 @@ The models were evaluated using the Clark Labs reference maps in Gabura.
 | Two-date U-Net | 0.810 | 0.888 | 0.847 | 0.735 |
 
 The two-date U-Net performed better than the other models in this experiment.
+
+### Aquaculture expansion maps
+
+The maps compare the Clark Labs reference with the predictions from the two U-Net models in Gabura.
+
+![Aquaculture expansion maps](results/Gabura_Map_Comparison_Final.svg)
+
+
+### Spatial error maps
+
+The maps below show where each model correctly identified new aquaculture and where it made mistakes in Gabura.
+
+![Aquaculture error maps](results/Gabura_Three_Model_Error_Map.png)
+
+
+### Precision–recall curves
+
+The curves compare the three models across different classification thresholds.
+
+![Precision-recall curves](results/Precision_Recall_Curves.png)
 
 ## Limitations
 
